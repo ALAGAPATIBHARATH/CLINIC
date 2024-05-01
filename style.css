@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+/*Nav Styles Start*/
+nav{
+    background-color:rgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav .menu ul{
+    display: flex;
+    align-items: center;
+}
+nav .menu ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav .icon{
+    display: flex;  
+    align-items: center;
+}
+nav .icon a{
+    color: white;
+    margin-right: 10px;
+    width: 1005;
+}
+nav .icon a:hover{
+    color: orangered;
+}
+nav .icon h1:hover{
+    color: orangered;
+}
+nav .icon h1 span:hover{
+    color: orangered;
+}
+nav .icon h1{
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: orangered;
+}
+.dropdown a i{
+    color: white;
+    align-items: center;
+}
+.dropdown a i:hover{
+    color: orangered;
+}
+/*Nav Styles End*/
+
+/*Banner Img Styles Start*/
+#banner img{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+#banner .banner_content{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-align: center;
+}
+#banner .banner_content h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+#banner .banner_content span h2{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+}
+#banner .banner_content button{
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: orangered;
+    color: white;
+}
+#banner .banner_content button:hover{
+    color: orangered;
+    background-color: white;
+}
+/*Banner Img Styles End*/
+
+/*About styles Start*/
+.about p{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,0.5);
+    text-decoration: underline orangered ;
+}
+.about h1{
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline orangered ;
+}
+/*About Styles End*/
+
+/*Information Styles Start*/
+#information .row{
+    width: 33.33%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#information .row .col{
+   margin: 10px;
+   border: 3px solid #EBEBEB;
+}
+#information .row .col button{
+    background-color: #2296F2;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+}
+#information .row .col button:hover{
+    color: #2296F2;
+    background-color:#EBEBEB;
+}
+#information .row .col img{
+    width: 450px;
+    margin-bottom: 10px;
+}
+#information .row .col span img{
+    height: 300px;
+}
+#information .row .col p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,0.5);
+}
+/*Information Styles End*/
+
+/*Services Styles Start*/
+#service .row{
+    display: flex;
+    width: 50%;
+    margin:20px 400px;  
+}
+#service .row .col i{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+#service .row .col {
+    display: flex;  
+}
+#service .row .col .info p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,0.5);
+}
+#service .row .col .info h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Services Styles End*/
+
+/*Doctor Styles Start*/
+#doctor .row{
+    display: flex;
+    width: 100%;
+}
+#doctor .row .col1{
+    padding-top: 150px;
+    padding-left: 35px;
+}
+#doctor .row .col1 p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgb(0,0,0,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#doctor .row .col1 h1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#doctor .row .col2{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+#doctor .row .col3{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 35px;
+}
+/*Doctor Styles End*/
+
+/*Footer Styles Start*/
+.footer{
+    background-image:url(https://www.christenseninstitute.org/wp-content/uploads/2016/05/doc-using-computer-twitter-cropped.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer .icon{
+    display: flex;
+    align-items: center;
+}
+.footer .icon a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.footer .col1 .icon h1:hover{
+    color: orangered;
+}
+.footer .icon h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .icon a:hover{
+    color: orangered;
+}
+.footer .icon i:hover{
+    color: orangered;
+}
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.footer .address{
+    display: flex;
+}
+.footer .address i{
+    margin-top: 10px;
+}
+.footer .address i:hover{
+    color: orangered;
+}
+.footer .address p:hover{
+    color: orangered;
+}
+.footer .phone{
+    display: flex;
+}
+.footer .phone i{
+    margin-top: 10px;
+}
+.footer .phone i:hover{
+    color: orangered;
+}
+.footer .phone p:hover{
+    color: orangered;
+}
+.footer .email{
+    display: flex;
+}
+.footer .email i{
+    margin-top: 10px;
+}
+.footer .email i:hover{
+    color: orangered;
+}
+.footer .email p:hover{
+    color: orangered;
+}
+.footer .col1{
+    margin-left: 100px;
+}
+.footer .col2 .icon{
+    display: flex;
+}
+.footer .col2 .icon i{
+    padding: 1px;
+    margin:5px ;
+}
+.footer .col2 .icon i:hover{
+    color: orangered;
+}
+.footer .col2 .partners h1{
+    margin: 10px;
+}
+.footer .col2 .email button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.footer .col2 .email button:hover{
+    color: orangered;
+    background-color: white;
+}
+.footer .col2 .email input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.footer .col2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+.footer .col2{
+    padding-right: 100px;
+}
+/*Footer Styles End*/
+
+/*CopyRights Styles Start*/
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    align-items: center;
+}
+.copyrights .contactus{
+    display: flex;
+}
+.copyrights .credits p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyrights .credits p span{
+color: orangered;
+font-family: Arial, Helvetica, sans-serif;
+}
+.copyrights .contactus p{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyrights .contactus p i{
+    margin: 5px;
+}
+.copyrights .contactus p:hover{
+color: orangered;
+}
+/* CopyRights Styles End */
+
+/* Medis Queries Start */
+@media (max-width:600px){
+    nav{
+        width: 100%;
+        z-index: 1;
+    }
+    #banner img{
+        width:100%;
+        height: 100%;
+        position: relative;
+    }
+    #banner .banner_content{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        right: 20%;
+        text-align: center;
+    }
+    #information .row{
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #information .row .col img{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    #service .row{
+        margin-left: 50px;
+    }
+    #service .row .col{
+        width: 100%;
+        display: block;
+    }
+    #doctor .row{   
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+    }
+    #doctor .row .col2 img{
+        width: 90%;
+    }
+    #doctor .row .col3 img{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .footer .col2 .partners h1{
+        margin-left: 50px;
+    }
+    .footer .col2 .partners .icon i{
+        margin-left: 50px;
+    }
+    .footer .col2 h1{
+        margin-left: 50px;
+    }
+    .footer .col2 .email input{
+        margin-left: 50px;
+    }
+    .footer .col1 .icon a i{
+        margin-left: 100px;
+    }
+    .footer .col1{
+        margin-left: 50px;
+    }
+    .copyrights{
+        display: block; 
+    }
+    .copyrights .credits p{
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .copyrights .contactus{
+        display:flex;
+       align-items: center;
+       justify-content: space-around;
+    }
+    .copyrights .contactus p{
+      display:flex;
+    }
+    .copyrights .contactus p i{
+        margin: 1px;
+        margin-right: 5px;
+    }
+}
+/* Media Queries End */
